@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+  .App{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px 50px;
+    width:90%;
+  
+   
+  }
+  
+  .App-logo {
+    height: 300px;
+    pointer-events: none;
+    width:300px;
+    background: linear-gradient(blue, green, yellow);
+    border-radius:50%;
+    
+  }
+  .imago{
+    position:relative;
+  }
+  .imago img{
+    position:absolute;
+    width:280px;
+    top:10px;
+    left:10px;
+    border:2px solid white;
+    border-radius: 50%;
+
+    
+  }
+  .hand{
+    width:55px;
+  }
+  .App h1{
+    font-size:50px;
+    
+   
+  }
+  .App a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.wordz a:hover {
+    background-color: #0056b3;
+}
+span{
+  color:blue;
+}
+
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .project .project-container .projectz{
+    width:350px;
+    height:250px;
+    background: greenyellow;
+    margin:20px;
+    border-radius: 20px;
+  }
+  .project .project-container{
+    display:grid;
+    grid-template-columns: auto auto auto ;
+  
+  }
+  .project{
+    margin-top: 30px;
+  }
+  .project h1{
+    text-align: center;
+    font-size: 50px;
+  }
+
+
+.container {
+  width: 97%;
+  height:20px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+
+.skills {
+  text-align: right;
+  font-size: 15px;
+  padding-right: 20px;
+  line-height: 25px;
+  color: white;
+}
+
+.html { width: 90%; height: 20px; border-radius:10px 0px 0px 10px; background-color: blue;}
+.css {width: 90%; height: 20px; border-radius:10px 0px 0px 10px; background-color: blue;}
+.js {width: 80%; height: 20px; border-radius:10px 0px 0px 10px; background-color: blue;}
+.php {width: 75%; height: 20px; border-radius:10px 0px 0px 10px; background-color: blue;}
+.react { width: 85%; height: 20px;border-radius:10px 0px 0px 10px; background-color: blue;}
+.python {width: 60%; height: 20px; border-radius:10px 0px 0px 10px; background-color: blue;}
+.adobe-photoshop {width: 80%; height: 20px; border-radius:10px 0px 0px 10px; background-color: blue;}
+.corel-draw {width: 80%; height: 20px;  background-color: blue;}
+
+.skillz-container{
+  display:flex;
+  justify-content: space-between;
+  margin:10px 20px;
+  align-items: center;
+ 
+}
+.skillz-one,
+.skillz-two{
+  width:100%;
+}
+.skillz h1{
+  text-align: center;
+  font-size: 50px;
+}
